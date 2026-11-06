@@ -1,24 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-	<meta http-equiv="refresh" content="0; url=https://www.alecdavis.com">
-	<title>MrFYGF</title>
-	<style type="text/css">body {
-            background: url(darkness.png);
-	    background-repeat: repeat;
-            color: #03fc8c;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-	    height: 100vh
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-	</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Domain for sale</title>
+<meta name="description" content="This premium domain name is for sale.">
+<meta name="theme-color" content="#000000">
+<meta http-equiv="refresh" content="120; URL='https://alecdavis.com/'">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230000FF'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#0000FF;
+  --black:#000000;
+  --white:#FFFFFF;
+  --grey:#9A9A9A;
+  --dim:#5C5C5C;
+  --on-blue:#B8B8FF;        /* secondary text on the blue panel */
+  --ease:cubic-bezier(.7,0,.2,1);
+  --out:cubic-bezier(.2,.8,.1,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--black);scrollbar-color:var(--blue) var(--black)}
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:var(--black)}
+::-webkit-scrollbar-thumb{background:var(--blue);border:3px solid var(--black);border-radius:6px}
+::-webkit-scrollbar-thumb:hover{background:#3333FF}
+body{min-height:100vh;color:var(--white);background:var(--black);font-family:'Archivo',system-ui,sans-serif;font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+::selection{background:var(--blue);color:var(--white)}
+:focus-visible{outline:2px solid var(--white);outline-offset:3px}
+
+/* ── Header ── */
+.top{max-width:1400px;margin:0 auto;padding:22px 24px;display:flex;justify-content:space-between;align-items:baseline;gap:20px;font-size:15px}
+.top .site{font-weight:600;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.top a.mail{color:var(--grey);text-decoration:none;transition:color .2s}
+.top a.mail:hover{color:var(--white)}
+
+/* ── Ads ── */
+.ad{display:flex;flex-direction:column;align-items:center;gap:6px}
+.ad-label{font-size:11px;color:var(--dim)}
+.ad-frame{width:var(--w);height:var(--h);display:flex;align-items:center;justify-content:center}
+.ph{width:100%;height:100%;border:1px dashed #2E2E2E;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--dim)}
+.ad-row{display:flex;justify-content:center;padding:0 12px}
+.ad[data-ad="728x90"]{display:none}
+@media (min-width:780px){.ad[data-ad="728x90"]{display:flex}.ad[data-ad="320x50"]{display:none}}
+.ad[data-ad="468x60"]{display:none}
+@media (min-width:520px){.ad[data-ad="468x60"]{display:flex}}
+
+/* ── Layout ── */
+.layout{max-width:1400px;margin:0 auto;padding:0 12px;display:grid;grid-template-columns:minmax(0,1fr);gap:32px}
+.rail{display:none}
+@media (min-width:640px){.layout{padding:0 24px}}
+@media (min-width:1300px){.layout{grid-template-columns:160px minmax(0,1fr) 160px}.rail{display:block}}
+.rail .sticky{position:sticky;top:24px}
+main{min-width:0}
+
+/* ── The sign ── */
+.sign{position:relative;background:var(--blue);color:var(--white);border-radius:4px;padding:clamp(20px,3.4vw,44px);min-height:clamp(440px,66vh,720px);display:flex;flex-direction:column;justify-content:space-between;gap:28px;clip-path:inset(0 0 0 0 round 4px)}
+.sign-top{display:flex;justify-content:space-between;gap:16px;font-size:15px;font-weight:500}
+.sign-top span:last-child{color:var(--on-blue)}
+
+.name{--wd:100;--fs:clamp(56px,14vw,220px);font-size:var(--fs);font-weight:820;line-height:.9;letter-spacing:-.012em;white-space:nowrap;overflow:hidden;padding:.06em 0 .12em;margin:0 -.03em}
+.name-in{display:inline-block}
+.ch{display:inline-block;font-variation-settings:'wdth' var(--wd),'wght' var(--wg,820);transition:font-variation-settings .45s var(--out)}
+
+.sign-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px 40px}
+.pitch{max-width:30ch;font-size:clamp(19px,1.9vw,24px);line-height:1.3;font-weight:500;letter-spacing:-.005em}
+.actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.btn{display:inline-block;background:var(--white);color:var(--blue);text-decoration:none;font-weight:650;font-size:17px;padding:17px 30px;border-radius:3px;transition:background .25s,color .25s}
+.btn:hover{background:var(--black);color:var(--white)}
+.addr{font-size:14px;color:var(--on-blue)}
+.addr a{color:var(--white);text-underline-offset:3px;text-decoration-thickness:1px}
+.addr button{color:var(--on-blue);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;margin-left:4px}
+.addr button:hover{color:var(--white)}
+
+/* ── How to buy ── */
+.buy{display:grid;grid-template-columns:minmax(0,1fr);gap:40px;align-items:start;padding:72px 0 64px;justify-items:center}
+@media (min-width:860px){.buy{grid-template-columns:minmax(0,1fr) auto;justify-items:stretch;padding:88px 0 72px}}
+.buy-text{width:100%;max-width:560px}
+.buy h2{font-size:clamp(26px,3vw,34px);line-height:1.15;font-weight:700;letter-spacing:-.02em;font-variation-settings:'wdth' 88;overflow-wrap:anywhere}
+.buy ol{margin-top:28px;padding-left:1.4em;display:grid;gap:14px;font-size:19px;line-height:1.45;color:#D6D6D6}
+.buy ol li::marker{color:var(--grey);font-weight:600}
+.buy ol a{color:var(--white);text-decoration-color:var(--blue);text-decoration-thickness:2px;text-underline-offset:4px}
+.buy ol a:hover{background:var(--blue);text-decoration:none}
+
+/* ── For domain owners ── */
+.owners{margin-top:72px;border:2px solid var(--blue);border-radius:4px;padding:clamp(24px,3.4vw,44px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:28px 48px}
+.owners-text{max-width:540px}
+.owners h2{font-size:clamp(26px,3vw,34px);line-height:1.15;font-weight:700;letter-spacing:-.02em;font-variation-settings:'wdth' 88}
+.owners p{margin-top:14px;font-size:18px;line-height:1.5;color:#D6D6D6}
+.btn--blue{background:var(--blue);color:var(--white)}
+.btn--blue:hover{background:var(--white);color:var(--blue)}
+@media (max-width:640px){.owners{flex-direction:column;align-items:stretch}}
+
+footer{max-width:1400px;margin:56px auto 0;padding:24px 24px 36px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:14px;color:var(--dim)}
+footer a{color:var(--grey);text-decoration:none}
+footer a:hover{color:var(--white)}
+
+/* ── The one load sequence ── */
+.js .sign{animation:wipe 1s var(--ease) .1s both}
+.js .ch{transform:translateY(110%);animation:rise 1s var(--out) both;animation-delay:calc(.75s + var(--i) * 38ms)}
+.js .sign-top,.js .sign-foot{animation:fade .8s ease both 1.45s}
+.js .later{animation:fade 1s ease both 1.9s}
+@keyframes wipe{from{clip-path:inset(0 0 100% 0 round 4px)}to{clip-path:inset(0 0 0 0 round 4px)}}
+@keyframes rise{from{transform:translateY(110%)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+
+@media (max-width:640px){
+  .sign{min-height:auto;gap:40px}
+  .sign-foot{flex-direction:column;align-items:stretch}
+  .btn{text-align:center}
+}
+@media (prefers-reduced-motion:reduce){
+  .js .sign,.js .ch,.js .sign-top,.js .sign-foot,.js .later{animation:none;transform:none}
+  .ch{transition:none}
+}
+</style>
+<script>document.documentElement.className='js'</script>
+<script data-cfasync="false" src="https://afders.org/1/1aa8fc25ab0ccf0cf7d6ee06d08f9c32"></script>
 </head>
 <body>
-hi
+
+<header class="top later">
+  <a class="site" href="/" data-domain>This domain</a>
+  <a class="mail" data-mailto href="mailto:domains@alecdavis.com">domains@alecdavis.com</a>
+</header>
+
+<!-- ═════ AD: 728x90 (desktop) / 320x50 (phones) ═════ -->
+<div class="ad-row later">
+  <div class="ad" data-ad="728x90">
+    <span class="ad-label">Advertisement</span>
+    <div class="ad-frame" style="--w:728px;--h:90px"></div>
+    <template>
+      <script>
+  atOptions = {
+    'key' : '56b460695db57e61e244ed5673b63342',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/56b460695db57e61e244ed5673b63342"></script>
+    </template>
+  </div>
+  <div class="ad" data-ad="320x50">
+    <span class="ad-label">Advertisement</span>
+    <div class="ad-frame" style="--w:320px;--h:50px"></div>
+    <template>
+      <script>
+  atOptions = {
+    'key' : '86800375a989a10ebaa4aad533d230fe',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/86800375a989a10ebaa4aad533d230fe"></script>
+    </template>
+  </div>
+</div>
+
+<div class="layout" style="margin-top:24px">
+
+  <!-- ═════ AD: 160x600 left rail (wide screens) ═════ -->
+  <aside class="rail later">
+    <div class="sticky">
+      <div class="ad" data-ad="160x600">
+        <span class="ad-label">Advertisement</span>
+        <div class="ad-frame" style="--w:160px;--h:600px"></div>
+        <template>
+          <script>
+  atOptions = {
+    'key' : '26b8eb40772f4a321acd5606be6c0eca',
+    'format' : 'iframe',
+    'height' : 600,
+    'width' : 160,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/26b8eb40772f4a321acd5606be6c0eca"></script>
+        </template>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="sign" id="sign">
+      <p class="sign-top"><span>Premium domain for sale</span><span id="ext"></span></p>
+
+      <h1 class="name" id="name"><span class="name-in">This domain is for sale</span></h1>
+
+      <div class="sign-foot">
+        <p class="pitch" id="pitch">A short, memorable name that's ready to become a brand.</p>
+        <div class="actions">
+          <a class="btn" data-mailto href="mailto:domains@alecdavis.com">Email an offer</a>
+          <p class="addr">or write to <a data-mailto href="mailto:domains@alecdavis.com">domains@alecdavis.com</a> <button type="button" id="copy">Copy</button></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="buy later">
+      <div class="buy-text">
+        <h2>How to buy <span data-domain>this domain</span></h2>
+        <ol>
+          <li>Email your offer to <a data-mailto href="mailto:domains@alecdavis.com">domains@alecdavis.com</a>.</li>
+          <li>Agree on a price and how you'd like to pay.</li>
+          <li>The domain moves to your registrar account, and it's yours.</li>
+        </ol>
+      </div>
+
+      <!-- ═════ AD: 300x250 ═════ -->
+      <div class="ad" data-ad="300x250">
+        <span class="ad-label">Advertisement</span>
+        <div class="ad-frame" style="--w:300px;--h:250px"></div>
+        <template>
+          <script>
+  atOptions = {
+    'key' : '0b13d9f2f455518b7f1a685ae96d6a2b',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/0b13d9f2f455518b7f1a685ae96d6a2b"></script>
+        </template>
+      </div>
+    </section>
+
+    <!-- ═════ AD: 468x60 ═════ -->
+    <div class="ad-row later">
+      <div class="ad" data-ad="468x60">
+        <span class="ad-label">Advertisement</span>
+        <div class="ad-frame" style="--w:468px;--h:60px"></div>
+        <template>
+          <script>
+  atOptions = {
+    'key' : '0bf3cd2fdf04a667e37e66b5e6f255a7',
+    'format' : 'iframe',
+    'height' : 60,
+    'width' : 468,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/0bf3cd2fdf04a667e37e66b5e6f255a7"></script>
+        </template>
+      </div>
+    </div>
+
+    <section class="owners later">
+      <div class="owners-text">
+        <h2>Own a premium domain?</h2>
+        <p>Let me sell it for you as your exclusive broker. I'll put it on a page like this one and handle buyers and the sale, and the ads on the page earn you money while it waits for the right offer.</p>
+      </div>
+      <a class="btn btn--blue" id="list-cta" href="mailto:domains@alecdavis.com">List your domain with me</a>
+    </section>
+  </main>
+
+  <!-- ═════ AD: 160x300 right rail (wide screens) ═════ -->
+  <aside class="rail later">
+    <div class="sticky">
+      <div class="ad" data-ad="160x300">
+        <span class="ad-label">Advertisement</span>
+        <div class="ad-frame" style="--w:160px;--h:300px"></div>
+        <template>
+          <script>
+  atOptions = {
+    'key' : 'd7b9474d96b460bedab0491aad8d9263',
+    'format' : 'iframe',
+    'height' : 300,
+    'width' : 160,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/d7b9474d96b460bedab0491aad8d9263"></script>
+        </template>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<footer class="later">
+  <span>© <span id="year">2026</span> <span data-domain>This domain</span></span>
+  <a data-mailto href="mailto:domains@alecdavis.com">domains@alecdavis.com</a>
+</footer>
+
+<script>
+(function () {
+  var EMAIL = 'domains@alecdavis.com';
+  var FALLBACK = 'yourdomain.com';
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ── Domain comes from wherever the page is hosted. Preview with ?domain=example.com ── */
+  var override = new URLSearchParams(location.search).get('domain');
+  var host = (override || location.hostname || '').toLowerCase().replace(/^www\./, '').replace(/\.$/, '');
+  var notReal = !host || host.indexOf('.') === -1 || /^[\d.]+$/.test(host) || host.indexOf(':') > -1 ||
+                /(claudeusercontent|claude\.ai|codepen|jsfiddle|csb\.app|stackblitz)/.test(host);
+  if (!override && notReal) host = FALLBACK;
+
+  var parts = host.split('.');
+  var tld = '.' + parts.pop();
+  if (parts.length > 1 && tld.length <= 3 && /^(co|com|net|org|gov|ac|edu)$/.test(parts[parts.length - 1])) tld = '.' + parts.pop() + tld;
+  var label = parts.join('.');
+
+  document.title = host + ' is for sale';
+  document.querySelectorAll('[data-domain]').forEach(function (el) { el.textContent = host; });
+  var unit = /^[a-z]+$/.test(label) ? 'letter' : 'character';
+  document.getElementById('ext').textContent = label.length + ' ' + unit + (label.length === 1 ? '' : 's') + ', ' + tld;
+  document.getElementById('pitch').textContent = 'A short, memorable ' + tld + ' that’s ready to become a brand.';
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  var mailto = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('Offer for ' + host) +
+    '&body=' + encodeURIComponent('Hi,\n\nI\'d like to make an offer for ' + host + '.\n\nOffer: \nName: \n\nThanks');
+  document.querySelectorAll('[data-mailto]').forEach(function (a) { a.href = mailto; });
+  document.getElementById('list-cta').href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('Listing my domain with you') +
+    '&body=' + encodeURIComponent('Hi,\n\nI\'d like you to sell my domain.\n\nDomain: \nAsking price (optional): \nName: \n\n(Found you via ' + host + ')');
+
+  /* ── Copy address ── */
+  var copy = document.getElementById('copy');
+  copy.addEventListener('click', function () {
+    if (!navigator.clipboard || !window.isSecureContext) { location.href = mailto; return; }
+    navigator.clipboard.writeText(EMAIL).then(function () {
+      copy.textContent = 'Copied';
+      setTimeout(function () { copy.textContent = 'Copy'; }, 1600);
+    });
+  });
+
+  /* ── Build the name, one span per letter ── */
+  var name = document.getElementById('name');
+  var inner = name.querySelector('.name-in');
+  inner.textContent = '';
+  name.setAttribute('aria-label', host);
+  var letters = Array.from(host).map(function (c, i) {
+    var s = document.createElement('span');
+    s.className = 'ch'; s.textContent = c; s.setAttribute('aria-hidden', 'true');
+    s.style.setProperty('--i', i);
+    inner.appendChild(s);
+    return s;
+  });
+
+  /* ── Cut the type to fit the sign: pick a font size and width (condensed ↔ extended)
+        so the name runs edge to edge without getting taller than the sign allows ── */
+  function widthAt(wd) {
+    name.style.setProperty('--wd', wd);
+    name.style.setProperty('--fs', '100px');
+    return inner.offsetWidth;
+  }
+  function fit() {
+    var avail = name.clientWidth * 0.99;
+    var maxFs = Math.min(innerHeight * 0.34, avail * 0.42, 320);
+    var wd, fs;
+    var fsWide = 100 * avail / widthAt(125);
+    if (fsWide >= maxFs) { wd = 125; fs = maxFs; }
+    else {
+      var fsNarrow = 100 * avail / widthAt(62);
+      if (fsNarrow <= maxFs) { wd = 62; fs = fsNarrow; }
+      else {
+        var lo = 62, hi = 125;
+        for (var k = 0; k < 9; k++) { var mid = (lo + hi) / 2; if (100 * avail / widthAt(mid) >= maxFs) lo = mid; else hi = mid; }
+        wd = lo; fs = maxFs;
+      }
+    }
+    name.style.setProperty('--wd', wd.toFixed(1));
+    name.style.setProperty('--fs', Math.floor(fs) + 'px');
+    measure();
+  }
+
+  /* ── Letters thin out under the cursor ── */
+  var centers = [];
+  function measure() { centers = letters.map(function (l) { var r = l.getBoundingClientRect(); return r.left + r.width / 2; }); }
+  var sign = document.getElementById('sign');
+  if (!reduce && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    var ready = false, raf = 0, px = 0;
+    setTimeout(function () { ready = true; measure(); }, 2000);
+    sign.addEventListener('pointermove', function (e) {
+      if (!ready) return;
+      px = e.clientX;
+      if (raf) return;
+      raf = requestAnimationFrame(function () {
+        raf = 0;
+        var spread = parseFloat(getComputedStyle(name).fontSize) * 0.9;
+        letters.forEach(function (l, i) {
+          var d = (centers[i] - px) / spread;
+          l.style.setProperty('--wg', Math.round(820 - 600 * Math.exp(-d * d)));
+        });
+      });
+    });
+    sign.addEventListener('pointerleave', function () { letters.forEach(function (l) { l.style.removeProperty('--wg'); }); });
+    window.addEventListener('scroll', measure, { passive: true });
+  }
+
+  fit();
+  if (document.fonts) document.fonts.ready.then(fit);
+  var rt; addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(fit, 100); });
+
+  /* ── Ad loader ──
+     Paste each Adsterra snippet into its slot's <template>. Only slots visible at the
+     current screen size load, one at a time, so Adsterra's shared `atOptions`
+     variable is never overwritten. Empty slots show a placeholder. */
+  var queue = [];
+  document.querySelectorAll('.ad').forEach(function (slot) {
+    var frame = slot.querySelector('.ad-frame'), tpl = slot.querySelector('template');
+    if (!(tpl && tpl.content.querySelector('script'))) {
+      frame.innerHTML = '<div class="ph">' + slot.getAttribute('data-ad').replace('x', ' × ') + ' ad</div>';
+      return;
+    }
+    if (slot.getClientRects().length) queue.push({ frame: frame, tpl: tpl });
+  });
+  function runNode(frame, node) {
+    return new Promise(function (resolve) {
+      if (node.nodeName !== 'SCRIPT') { frame.appendChild(node.cloneNode(true)); return resolve(); }
+      var s = document.createElement('script');
+      Array.from(node.attributes).forEach(function (a) { s.setAttribute(a.name, a.value); });
+      s.text = node.textContent;
+      var external = node.hasAttribute('src');
+      if (external) { s.onload = s.onerror = resolve; setTimeout(resolve, 6000); }
+      frame.appendChild(s);
+      if (!external) resolve();
+    });
+  }
+  if (queue.length) addEventListener('load', function () {
+    setTimeout(function () {
+      queue.reduce(function (p, item) {
+        return Array.from(item.tpl.content.childNodes).reduce(function (q, node) {
+          return q.then(function () { return runNode(item.frame, node); });
+        }, p);
+      }, Promise.resolve());
+    }, 300);
+  });
+})();
+</script>
+<script data-cfasync="false" src="https://bicea.org/14/07d6905b1e94c63553b119ccb1879dcd"></script>
 </body>
 </html>
